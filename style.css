@@ -6,6 +6,9 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
+.bg-sec{
+    background-color: #fff8f3;
+}
 .btn{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -14,6 +17,18 @@ body{
     color: white;
     border-radius: 5px;
     border: none;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #474747;
+}
+.section-disc{
+    font-size: 18px;
+    color: #474747;
+}
+.text-center{
+    text-align: center;
 }
 /* Nav bar Style */
 .header{
@@ -67,4 +82,38 @@ nav li a{
 }
 .banner-image{
     width: 580px;
+}
+
+
+/* main area style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about style  */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content:space-around ;
+}
+.item-disc{
+    font-weight:600;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.06);
+    border-radius: 5px;
 }
