@@ -170,3 +170,67 @@ textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+
+
+/*! Mobile Responsive  */
+
+@media screen and (max-width:576px) {
+    nav ul{
+        flex-direction: column;
+        gap: 10px 0px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px 0px;
+    }
+    .banner-grt{
+        margin-bottom: 0;
+    }
+    .banner-title{
+        margin-top: 0px;
+    }
+    .banner ,nav{
+        flex-direction: column-reverse;
+        margin:0px;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .section-disc{
+        text-align: left;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .resume-colum{
+        margin-bottom: 80px;
+    }
+    .resume-colum-title{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .bg-sec{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+    input[type= "text"],footer input[type = "email"],textarea{
+        width: calc( 100% - 40px );
+    }
+}
